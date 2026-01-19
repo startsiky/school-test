@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none">
+  <defs>
+    <linearGradient id="m" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF2FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="40" fill="url(#m)"/>
+  <rect x="40" y="40" width="1120" height="340" rx="32" fill="#FFFFFF" fill-opacity=".85" stroke="#1D72F3" stroke-opacity=".16"/>
+  <text x="72" y="130" font-family="Inter, Arial" font-size="46" font-weight="800" fill="#0B0F17">“Дискриминант” звучит страшно</text>
+  <text x="72" y="210" font-family="Inter, Arial" font-size="34" font-weight="700" fill="#1D72F3">но это просто “посчитай и успокойся” 😄</text>
+  <text x="72" y="310" font-family="Inter, Arial" font-size="28" font-weight="600" fill="#5B667A">Сейчас покажем на примере — и всё станет тихо.</text>
+</svg>
