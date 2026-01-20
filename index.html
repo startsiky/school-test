@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BELSCHOOL</title>
+  <meta name="description" content="BELSCHOOL — учишь быстро, тестишь честно." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-blob"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <header class="top">
+    <div class="brand" id="goHome" role="button" tabindex="0" aria-label="На главную">
+      <div class="brand-mark">B</div>
+      <div class="brand-text">
+        <div class="brand-name">BELSCHOOL</div>
+        <div class="brand-tag">5 минут — понял • 3 минуты — закрепил 🔥</div>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <button class="chip" id="btnProgress" type="button">Прогресс</button>
+      <button class="chip chip-ghost" id="btnReset" type="button">Сброс</button>
+    </div>
+  </header>
+
+  <main class="app" id="app" aria-live="polite"></main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
